@@ -1,0 +1,22 @@
+# Ignore Terraform-specific files and directories
+*.tfstate
+*.tfstate.backup
+# *.tfvars
+*.tfvars.json
+
+# Ignore local and temporary files
+.terraform/
+*.log
+
+# Ignore IDE/editor-specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore cache files
+.terraform.lock.hcl
+
+# Ignore Terraform CLI output
+*.tfplan
+*.tfplan.*.json
+gcp_key.json
